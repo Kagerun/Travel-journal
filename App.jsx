@@ -7,12 +7,7 @@ export function App() {
         return (
             <Entry
                 key={entry.id}
-                img={entry.img}
-                country={entry.country}
-                googleMapsLink={entry.googleMapsLink}
-                title={entry.title}
-                dates={entry.dates}
-                text={entry.text}
+                {...entry}
             />
         )
     })
@@ -23,4 +18,5 @@ export function App() {
             {entries}
         </>
     )
+
 }

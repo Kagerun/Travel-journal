@@ -12,8 +12,7 @@ export function Entry(props){
                 </header>
                 <h2 className="entry-title">{props.title}</h2>
                 <p className="entry-date">{props.dates}</p>
-                <p className="entry-description">
-                    {props.text}
+                <p className="entry-description">{props.text}
                 </p>
             </div>
         </article>
